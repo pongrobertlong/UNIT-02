@@ -171,6 +171,7 @@ Skills
   margin-bottom: .5em;
   font-size: 1.5em;
   background-color: white;
+  color: #636363;
 
 }
 
@@ -299,32 +300,22 @@ Media Queries
         width: 49%;
     }
 
+   
+
     /* ---- Skills ---- */
 
     #main-skills h2 {
         padding-bottom: 2.3em;
     }
 
-    #main-skills li {
-        margin-left: 0;
-        padding: 1em;
-        margin-left: 1em;
-        margin-right: 1em;
-        
-    }
-
-    .float-left {
-        float: left;
-        width: 50%;
+    .skill-list {
+        max-width:1200px;
         margin: auto;
     }
 
-    .float-right {
-        float: right;
-        width: 50%;
+   
        
-       
-    }
+
 
     /* ---- Contact ---- */
 
@@ -373,7 +364,7 @@ Media Queries
      /* ---- Main ---- */
 
      body {
-         background-color:#f2f2f2;
+         background-color:black;
      }
 
 
@@ -382,10 +373,12 @@ Media Queries
     header {
         margin-left: 3em;
         margin-right: 3em;
+        background-color: black;
     }
 
     .main-header {
         width: 100%;
+        color:white;
     }
 
     .student-name {
@@ -407,15 +400,24 @@ Media Queries
         padding-top: 0;
         width: 50%;
         text-align:right;
+        
     }
 
     .main-nav li {
-        font-size: 1em;    
+        font-size: 1em;
+        
+           
+    }
+
+    .main-nav a {
+        color:white;
+        background-color: black;
     }
 
 
     .headline {
         margin-top: 4em;
+        color:white;
     }
 
     .headline-text {
@@ -435,9 +437,13 @@ Media Queries
         padding-left: 3em;
         padding-right: 3em;
         margin: 0 auto;
-        background-color: white;
+        background-color: black;
+        color:white;
 
     }
+
+    
+       
 
     .marketing-page,
     .favorite-spots{
@@ -462,8 +468,6 @@ Media Queries
         width: 30%;
         
     }
-    
-   
 
 }
 /***************************
